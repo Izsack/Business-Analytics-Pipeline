@@ -3,8 +3,10 @@
 ## AWS Glue • PySpark • Amazon S3 • Athena • QuickSight • IAM
 
 An end-to-end cloud analytics architecture designed to transform
-manually generated business reports into a reusable, governed,
-and scalable business intelligence platform.
+raw business data into a reusable, governed,
+and scalable business intelligence dashboards.
+
+AWS analytics pipeline: SQL database on EC2, transformed by Glue and PySpark into an S3 data lake, queried with Athena and visualised in QuickSight.
 
 ---
 
